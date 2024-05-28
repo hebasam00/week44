@@ -1,126 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-
-  <title>Frontend Mentor | Social links profile</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .all {
+display: flex;
+padding: 55px;
+margin: 22px;
+background-color: rgb(21, 21, 58);
+border-radius: 10px;
+height: 288px;
     }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
+    .word {
+      color: rgb(107, 7, 105);
     }
-
-    .body {
-      background-color: black;
-    }
-
-    .card {
-      background-color: rgb(28, 30, 33);
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      align-content: center;
-      height: 88%;
-      width: 60%;
-      padding: 23px;
-      align-items: center;
-      border-radius: 5%;
-    }
-
-    .github {
-      background-color: rgb(85, 83, 83);
-      border-radius: 22%;
-      width: 80%;
-
-    }
-
-    .fronted {
-      background-color: rgb(85, 83, 83);
-      border-radius: 22%;
-      width: 80%;
-
-
-    }
-
-    .linkden {
-      background-color: rgb(85, 83, 83);
-      border-radius: 22%;
-      width: 80%;
-
-    }
-
-    .twitter {
-      background-color: rgb(85, 83, 83);
-      border-radius: 22%;
-      width: 80%;
-
-    }
-
-    .instagram {
-      background-color: rgb(85, 83, 83);
-      border-radius: 22%;
-      width: 80%;
-
-    }
-
-    .london {
-      color: rgb(57, 230, 57);
-    }
-
-    .h1 {
-      color: aliceblue;
-    }
-
-    .front {
-      color: aliceblue;
-    }
-
-    .girl {
+    .photo {
       
+    }
+    .pp {
+      color: aliceblue;
+    }
+    .tt {
+      color: aliceblue;
     }
   </style>
 </head>
+<body>
+<div class="all">
+  <div class="paragraph">
+ <h1> Get <span class="word">insights</span>that help your business grow.</h1>
 
-<body class="body">
+ <p class="pp"> Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+  experience, and overall efficiency.</p>
 
-  <div class="card">
-    <div class="girl"><img src="assets/images/avatar-jessica.jpeg" width="60px"></div>
-    <div class="h1">
-      <h1> Jessica Randall</h1>
-    </div>
-    <div class="london">
-      <p> London, United Kingdom</p>
-    </div>
-    <div class="front">
-      <p>"Front-end developer and avid reader."</p>
-    </div>
-    <div class="github">
-      <p>GitHub</p>
-    </div>
-    <div class="fronted">
-      <p>Frontend Mentor</p>
-    </div>
-    <div class="linkden">
-      <p>LinkedIn</p>
-    </div>
-    <div class="twitter">
-      <p>Twitter</p>
-    </div>
-    <div class="instagram">
-      <p>Instagram</p>
-    </div>
-
+  <h2 class="tt">10k+ companies
+  314 templates
+  12m+ queries</h2>
+</div>
+ <div class="photo">
+  <img src="images/image-header-desktop.jpg" width="400">
+ </div>
 </body>
-
 </html>
