@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: end;
+            justify-content: space-between;
+            font-size: small;
+
+        }
+
+        .section1 {
+            display: flex;
+            flex-direction: row;
+            padding: 30px;
+            height: 333px;
+        }
+
+        .body {
+            background-color: rgb(226, 234, 241);
+        }
+
+        .box {
+            background-color: aliceblue;
+            height: 300px;
+            width: 400px;
+            border-radius: 10px;
+            padding: 22px;
+            margin: 33px;
+        }
+
+        .section2 {
+            padding: 22px;
+            margin: 22px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .div {}
+
+        .section3 {
+            display: flex;
+            background-color: rgb(74, 81, 145);
+        }
+
+        .divget {
+            padding: 22px;
+            margin: 22px;
+        }
+
+        .divjohn {
+            padding: 22px;
+            margin: 22px;
+        }
+
+        .phone {
+            display: flex;
+            flex-direction: row;
+            padding: 22px;
+
+        }
+
+        .email {
+            display: flex;
+            flex-direction: row;
+            padding: 22px;
+        }
+
+        .finallydiv {
+            display: flex;
+            gap: 100px;
+            padding:
+                margin:22px;
+            background-color: rgb(6, 6, 74);
+        }
+    </style>
+</head>
+
+<body class="body">
+    <nav class="nav">
+        <div><img src="images/logo.svg" width="77px"></div>
+        <a href="#" style="color: black;">features</a>
+        <a href="#" style="color: black;">teams</a>
+        <a href="#" style="color: black;">sign in</a>
+    </nav>
+    <div class="section1">
+
+        <div>
+            <h1 style="color:rgb(2, 2, 83);"> All your files in one secure location, accessible anywhere.</h1>
+            <p>
+                Fylo stores your most important files in one secure location.
+                Access them wherever you need, share and collaborate with friends,
+                family, and co-workers.
+            </p>
+            <form action="/action_page.php">
+                <input type="text" id="fname" name="fname" style="border-color: rgb(251, 158, 158);"
+                    value="Johnapplesed@mail.com">
+
+                <input style="background-color: rgb(64, 169, 249); border-color: rgb(89, 163, 248);" type="submit"
+                    value="Submit">
+            </form>
+
+        </div>
+        <div>
+            <img src="images/illustration-1.svg" width="400">
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!--section 2-->
+
+    <div class="section2">
+        <div class="div1">
+
+            <h1> Stay productive, wherever you are</h1>
+            <p> Never let location be an issue when accessing your files. Fylo has you
+                covered for all of your file storage needs.</p>
+            <p>Securely share files and folders with friends, family and colleagues for
+                live collaboration. No email attachments required!
+            </p>
+            <a href="" style="color: aqua; font-size: large;">see how fylo works</a>
+
+            <div class="box">
+                <img src="images/icon-quotes.svg">
+
+                <p>Fylo has improved our team productivity by an order of magnitude. Since
+                    making the switch our team has become a well-oiled collaboration machine</p><br><img
+                    style="border-radius: 50%; height: 44px;" src="images/avatar-testimonial.jpg">
+                <p>Kyle Burton
+                    Founder & CEO, Huddle</p>
+            </div>
+        </div>
+
+        <div class="div2">
+            <img src="images/illustration-2.svg" width="444" height="444">
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="section3">
+        <div class="divget">
+            <h1 style="border-radius: 17px; color: aliceblue;"> Get early access today</h1>
+            <p style="color: aliceblue;">It only takes a minute to sign up and our free starter tier is extremely
+                generous.
+                If you have any questions, our support team would be happy to help you.
+            </p>
+        </div>
+        <div class="divjohn">
+            <form>
+                <input type="text" id="lname" name="lname" value="johnapplesseed#mail.com"
+                    style="border-color: crimson;">
+                <br> <label for="lname" style="color: aliceblue;"> please check your email</label><br><br>
+                <input type="submit" value="get started for free" style="background-color: rgb(56, 135, 254);">
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="finallydiv">
+        <div>
+            <img style="color: aliceblue;" src="images/logo.svg">
+            <div class="phone"><img src="images/icon-phone.svg" height="22px">
+                <p style="color: aliceblue;">phone:+1-543-123-4567</p>
+            </div>
+            <div class="email"><img src="images/icon-email.svg" height="22px">
+                <p style="color: aliceblue;">example@fylo.com</p>
+            </div>
+
+        </div>
+        <div>
+            <ul style="color: aliceblue;">
+                <li>about us</li>
+                <li>jobs</li>
+                <li>press</li>
+                <li>blog</li>
+            </ul>
+        </div>
+        <div>
+            <ul style="color: aliceblue;">
+                <li>contact us</li>
+                <li>terms</li>
+                <li>privacy</li>
+            </ul>
+        </div>
+        <div>
+            <img src="facebook.png" width="22px">
+            <img src="twitter.png" width="22px">
+            <img src="instagram.png" width="22px">
+        </div>
+    </div>
+</body>
+
+</html>
