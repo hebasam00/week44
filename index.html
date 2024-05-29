@@ -1,53 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Stats preview card component</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-    .all {
-display: flex;
-padding: 55px;
-margin: 22px;
-background-color: rgb(21, 21, 58);
-border-radius: 10px;
-height: 288px;
+    .attribution {
+      font-size: 11px;
+      text-align: center;
     }
-    .word {
-      color: rgb(107, 7, 105);
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
     }
-    .photo {
-      
-    }
-    .pp {
+    .item1{
+      background-color: rgb(59, 132, 248);
+      border-radius: 10%;
       color: aliceblue;
     }
-    .tt {
+    .main {
+      display:flex;
+      flex-direction: row;
+      width:66%;
+      padding: 54px;px;
+      margin: 50px;
+     text-align: center;
+    
+    }
+    .ss {
+      background-color: blue;
+      border-radius:99%;
+      display: flex;
+      width: 90px;
+      height: 90px;
+      align-items: center;
+      flex-direction: column;
+      margin: 29%;
       color: aliceblue;
+      padding: 22px;
+    }
+    .div2 {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;  
+      align-content: normal;
+      background-color: rgb(226, 226, 226);
+      padding: 22px;
+      border-radius: 10%;
+      text-align: center;
+    }
+    .item2 {
+background-color: rgb(255, 223, 223);
+border-radius: 11px;
+width: 222px;
+color: crimson;
+    }
+    .item3 {
+      background-color: rgb(243, 255, 194);
+      border-radius: 11px;
+      color: coral;
+
+    } 
+    .item5{
+      background-color: rgb(226, 255, 226);
+      border-radius: 11px;
+      color: chartreuse;
+
+    }
+    .item4 {
+      background-color: rgb(255, 230, 205);
+      border-radius: 11px;
+      color:blue;
+
     }
   </style>
 </head>
+
 <body>
-<div class="all">
-  <div class="paragraph">
- <h1> Get <span class="word">insights</span>that help your business grow.</h1>
 
- <p class="pp"> Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.</p>
+  <div class="main">
+    
+    <div class="item1">
+     <div class="ss">
+      <h1>76</h1>of 100
+     </div>
+     
+     
+  
+  
 
-  <h2 class="tt">10k+ companies
-  314 templates
-  12m+ queries</h2>
-</div>
- <div class="photo">
-  <img src="images/image-header-desktop.jpg" width="400">
- </div>
+      <h3>Great</h3>
+
+      <p>You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+    <div class="div2">
+      Summary
+
+     <div class="item2"> Reaction
+      80 / 100</div>
+
+      <div class="item3">Memory
+      92 / 100</div>
+
+      <div class="item4">Verbal
+      61 / 100</div>
+
+      <div class="item5">Visual
+      72 / 100</div>
+
+    </div>
+  </div>
+
 </body>
+
 </html>
